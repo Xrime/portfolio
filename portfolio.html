@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xrime | Web3 Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0d1117;
+      --text-color: #c9d1d9;
+      --accent-color: #58a6ff;
+      --highlight-color: #3fb950;
+      --card-bg: #161b22;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      transition: background 0.3s ease;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1, h2 {
+      color: var(--accent-color);
+    }
+
+    a {
+      color: var(--highlight-color);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--accent-color);
+    }
+
+    .section {
+      background-color: var(--card-bg);
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-4px);
+    }
+
+    .highlight {
+      color: var(--highlight-color);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .in-progress {
+      font-style: italic;
+      color: #ffa657;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Felix Adegoke <span class="highlight">(Xrime)</span></h1>
+    <p>Email: <a href="mailto:felixadesola04@gmail.com">felixadesola04@gmail.com</a><br>
+       Telegram: <a href="https://t.me/X_rime">@X_rime</a><br>
+       Twitter: <a href="https://twitter.com/seyi_ayo32803">@seyi_ayo32803</a><br>
+       GitHub: <a href="https://ghttps://github.com/Xrime">Xrime</a>
+    </p>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>Web3 enthusiast, community builder, and cybersecurity learner passionate about DeFi, testnets, and automation. I contribute to testnet projects, moderate communities, and build tools for the crypto space.</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Languages: Python, HTML/CSS, JavaScript (basic)</li>
+        <li>Tools: Git, GitHub, Notion, Canva, Discord, Telegram</li>
+        <li>Platforms: Solana, Ethereum, LayerZero, ZetaChain</li>
+        <li>Content: Twitter Threads, Guides, Docs, Visuals</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <h3>ArcToken (Hack Club Project) <span class="in-progress">[In Progress]</span></h3>
+      <p>A beginner-friendly dApp that generates in-browser wallets, displays ArcToken balance, and enables admin airdrops—built on Solana testnet with React and Node.js.</p>
+
+      <h3>Budget Buddy</h3>
+      <p>A personal expense tracker built in Python (Tkinter). Features include voice input, CSV export, and a dashboard UI.</p>
+
+      <h3>Crypto Automation Tool <span class="in-progress">[In Progress]</span></h3>
+      <p>Tool for managing and automating testnet tasks like bridging, swapping, liquidity provision, and governance actions across multiple wallets.</p>
+    </div>
+
+    <div class="section">
+      <h2>Contributions</h2>
+      <ul>
+        <li>Active in testnet campaigns: Starknet, ZetaChain, Monad, Fuel</li>
+        <li>Moderated communities with 1K+ members</li>
+        <li>Created guides and threads on testnet farming strategies</li>
+        <li>Hack Club member contributing to open-source dApps</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Availability</h2>
+      <p>15–20 hours per week</p>
+    </div>
+
+    <div class="section">
+      <h2>Why Me?</h2>
+      <p>I combine technical insight with creative energy. Whether it's moderating, writing, or building, I strive to support the Web3 space with quality and consistency.</p>
+    </div>
+  </div>
+</body>
+</html>
